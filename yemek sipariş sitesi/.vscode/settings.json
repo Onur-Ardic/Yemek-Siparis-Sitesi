@@ -1,0 +1,10 @@
+{
+  "workbench.editor.autoLockGroups": {
+    "default": true
+  },
+  "notebook.editorOptionsCustomizations": {
+    "editor.parameterHints.enabled": true
+  },
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true
+}

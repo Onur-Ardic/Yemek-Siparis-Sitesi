@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Götür Yemek</title>
+    <link rel="stylesheet" href="styles/index.css" />
+  </head>
+  <body>
+    <!-- HEADER SECTİON START-->
+    <header class="header">
+      <a href="#" class="logo">
+        <img src="images/GÖTÜR.png" />
+      </a>
+
+      <nav class="navbar active">
+        <a href="#Anasayfa" class="active">Anasayfa</a>
+        <a href="#Hakkımızda">Hakkımızda</a>
+        <a href="#Menü">Menü</a>
+        <a href="#Favoriler">Favoriler</a>
+        <a href="#Yorumlar">Yorumlar</a>
+        <a href="#İletişim">İletişim</a>
+        <a href="#Hesap">Hesap</a>
+      </nav>
+      <div class="buttons">
+        <button id="search-btn">
+          <i class="fas fa-search"></i>
+        </button>
+
+        <button id="cart-btn">
+          <i class="fas fa-shopping-cart"></i>
+        </button>
+
+        <button>
+          <a href="./login/index.html"><i class="fas fa-user"></i></a>
+        </button>
+
+        <button id="menu-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+
+      <div class="search-form">
+        <input
+          type="text"
+          class="search-input"
+          id="search-box"
+          placeholder="ara"
+        />
+        <i class="fas fa-search"></i>
+      </div>
+
+      <div class="cart-items-container">
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="images/menu-1.jpg" alt="menu" />
+          <div class="content">
+            <h3>Big Bang Burger</h3>
+            <div class="price">45.99 / -</div>
+          </div>
+        </div>
+        <a href="#" class="btn">Sepeti Onayla</a>
+      </div>
+    </header>
+    <!-- HEADER SECTİON END-->
+
+    <!-- HOME SECTİON START-->
+    <section class="home" id="Anasayfa">
+      <div class="content">
+        <h3 class="text">EVİNİZE HIZLI TESLİMAT</h3>
+
+        <p class="text">
+          Hemen siparişini ver kısa süre içerisinde kapına gelsin. Yemeğini
+          sıcacık ye
+        </p>
+
+        <a href="#" class="btn">Sipariş ver</a>
+      </div>
+    </section>
+    <!-- HOME SECTİON END-->
+    <!-- MENU SECTİON START-->
+    <section class="menu" id="Menü">
+      <h1 class="heading"><span>Hamburger</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="box-head">
+            <img src="images/ham1.jpg" alt="menü" />
+            <span class="menu-category">Hamburger</span>
+            <h3>Big Bang Burger</h3>
+            <div class="price">59.99₺<span>89.99₺</span></div>
+          </div>
+          <div class="bottom">
+            <a href="#" class="btn">Sepete Ekle</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="box-head">
+            <img src="images/ham.jpg" alt="menü" />
+            <span class="menu-category">Hamburger</span>
+            <h3>Roast Big Burger</h3>
+            <div class="price">89.99₺<span>109.99₺</span></div>
+          </div>
+          <div class="bottom">
+            <a href="#" class="btn">Sepete Ekle</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-head">
+            <img src="images/blackh.jpg" alt="menü" />
+            <span class="menu-category">Hamburger</span>
+            <h3>Black Beef Burger</h3>
+            <div class="price">45.99₺<span>75.99₺</span></div>
+          </div>
+          <div class="bottom">
+            <a href="#" class="btn">Sepete Ekle</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-head">
+            <img src="images/blackh1.jpg" alt="menü" />
+            <span class="menu-category">Hamburger</span>
+            <h3>Roast Deluxe Burger</h3>
+            <div class="price">50.99₺<span>69.99₺</span></div>
+          </div>
+          <div class="bottom">
+            <a href="#" class="btn">Sepete Ekle</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- iskender menü start-->
+    <section class="menu">
+      <h1 class="heading"><span>İskender</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="box-head">
+            <img src="images/iskender.jpg" alt="menü" />
+            <span class="menu-category">İskender</span>
+            <h3>İskender Menü</h3>
+            <div class="price">109.99₺<span>130.99₺</span></div>
+          </div>
+          <div class="bottom">
+            <a href="#" class="btn">Sepete Ekle</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="box-head">
+            <img src="images/iskender1.jpg" alt="İskender    menü" />
+            <span class="menu-category">İskender</span>
+            <h3>Extra Tereyağlı İskender</h3>
+            <div class="price">85.99₺<span>100.99₺</span></div>
+          </div>
+          <div class="bottom">
+            <a href="#" class="btn">Sepete Ekle</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-head">
+            <img src="images/iskender3.jpg" alt="İskender Menü" />
+            <span class="menu-category">İskender</span>
+            <h3>Yarım Porsiyon İskender</h3>
+            <div class="price">45.99₺<span>75.99₺</span></div>
+          </div>
+          <div class="bottom">
+            <a href="#" class="btn">Sepete Ekle</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-head">
+            <img src="images/iskender2.jpg" alt="İskender menü" />
+            <span class="menu-category">İskender</span>
+            <h3>2 Kişilik İskender</h3>
+            <div class="price">190.99₺<span>230.99₺</span></div>
+          </div>
+          <div class="bottom">
+            <a href="#" class="btn">Sepete Ekle</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- iskender menü end-->
+
+    <!-- döner menü start-->
+    <section class="menu">
+      <h1 class="heading"><span>Döner</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="box-head">
+            <img src="images/ekmekarasıdöner.jpeg" alt="menü" />
+            <span class="menu-category">Döner</span>
+            <h3>Ekmek Arası Döner</h3>
+            <div class="price">26.99₺<span>35.99₺</span></div>
+          </div>
+          <div class="bottom">
+            <a href="#" class="btn">Sepete Ekle</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="box-head">
+            <img src="images/sarmadöner.jpg" alt="menü" />
+            <span class="menu-category">Döner</span>
+            <h3>Sarma Dürüm Döner</h3>
+            <div class="price">34.99₺<span>41.99₺</span></div>
+          </div>
+          <div class="bottom">
+            <a href="#" class="btn">Sepete Ekle</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-head">
+            <img src="images/etdöner.jpg" alt="menü" />
+            <span class="menu-category">Döner</span>
+            <h3>Et Döner</h3>
+            <div class="price">45.99₺<span>75.99₺</span></div>
+          </div>
+          <div class="bottom">
+            <a href="#" class="btn">Sepete Ekle</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-head">
+            <img src="images/bolmalzemelidöner.jpg" alt="menü" />
+            <span class="menu-category">Döner</span>
+            <h3>Bol Malzemeli Döner</h3>
+            <div class="price">55.99₺<span>70.99₺</span></div>
+          </div>
+          <div class="bottom">
+            <a href="#" class="btn">Sepete Ekle</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- döner menü end-->
+
+    <!-- çiğköfte menü start-->
+    <section class="menu">
+      <h1 class="heading"><span>Çiğ Köfte</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="box-head">
+            <img src="images/500gr.jpeg" alt="menü" />
+            <span class="menu-category">çiğköfte</span>
+            <h3>500 Gram Çiğköfte</h3>
+            <div class="price">56.99₺<span>70.99₺</span></div>
+          </div>
+          <div class="bottom">
+            <a href="#" class="btn">Sepete Ekle</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="box-head">
+            <img src="images/1kgmenü.jpeg" alt="menü" />
+            <span class="menu-category">Çiğköfte</span>
+            <h3>1 Kilogram Menü</h3>
+            <div class="price">98.99₺<span>115.99₺</span></div>
+          </div>
+          <div class="bottom">
+            <a href="#" class="btn">Sepete Ekle</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-head">
+            <img src="images/ekstramalzemeservis.jpg" alt="menü" />
+            <span class="menu-category">çiğköfte</span>
+            <h3>Spesiyal Menü</h3>
+            <div class="price">60.99₺<span>75.99₺</span></div>
+          </div>
+          <div class="bottom">
+            <a href="#" class="btn">Sepete Ekle</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-head">
+            <img src="images/dürümcig.jpg" alt="menü" />
+            <span class="menu-category">çiğköfte</span>
+            <h3>Çiğköfte Dürüm</h3>
+            <div class="price">25.99₺<span>30.99₺</span></div>
+          </div>
+          <div class="bottom">
+            <a href="#" class="btn">Sepete Ekle</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- çiğköfte menü end-->
+
+    <!-- En çok satılan start-->
+    <section class="products" id="Favoriler">
+      <h1 class="heading">En çok satılanlar</h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="box-head">
+            <span class="title">Hamburger</span>
+            <a href="#" class="name">Roast Big Burger</a>
+          </div>
+
+          <div class="image">
+            <img src="images/ham.jpg" alt="menü" />
+          </div>
+
+          <div class="box-bottom">
+            <div class="info">
+              <b class="price">89.99₺</b>
+              <span class="amount">110gr / 300cal</span>
+            </div>
+            <div class="product-btn">
+              <a href="^#">
+                <i class="fas fa-plus"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="box-head">
+            <span class="title">İskender</span>
+            <a href="#" class="name">Yarım Porsiyon İskender</a>
+          </div>
+          <div class="image">
+            <img src="images/iskender2.jpg" alt="" />
+          </div>
+
+          <div class="box-bottom">
+            <div class="info">
+              <b class="price">45.99₺</b>
+              <span class="amount">80gr / 230cal</span>
+            </div>
+            <div class="product-btn">
+              <a href="^#">
+                <i class="fas fa-plus"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="box-head">
+            <span class="title">döner</span>
+            <a href="#" class="name">Bol Malzemeli Döner</a>
+          </div>
+          <div class="image">
+            <img src="images/bolmalzemelidöner.jpg" alt="menu" />
+          </div>
+
+          <div class="box-bottom">
+            <div class="info">
+              <b class="price">55.99₺</b>
+              <span class="amount">70 / 150cal</span>
+            </div>
+            <div class="product-btn">
+              <a href="^#">
+                <i class="fas fa-plus"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- En çok satılan end-->
+
+    <!--! Hakkımızda section start  -->
+    <section class="about" id="Hakkımızda">
+      <h1 class="heading">Hakkımızda</h1>
+      <div class="row">
+        <img src="images/GÖTÜR.png" alt="about" />
+
+        <h3 id="head">Götür Yemek Ailesi Kimdir</h3>
+        <p>
+          2019 Yılında Kahramanmaraşta küçük bir kafe ile iş hayatımıza
+          başladık. Siz değerli müşterilerimizden harika dönüşler aldık.
+          Sizlerin bizlere vermiş olduğu bu motivasyon ile işletmemizi büyütecek
+          cesaret ve erdeme sahip olduk. Şuanda vatanımızın birbirinden güzel 30
+          farklı şehrinde siz değerli müşterilerimize hizmet vermekten gurur
+          duyuyoruz.
+        </p>
+        <p>
+          Sizler için her koşulda yemeklerinizi sıcacık ulaştırmaya çalışan
+          kuryelerimizden gülüşlerinizi eksik etmeyin
+        </p>
+        <p>
+          Firmamız hakkında daha fazla bilgi almak için aşağıdaki butona
+          tıklayabilirsiniz.
+        </p>
+        <a href="#" class="btn">learn more</a>
+      </div>
+    </section>
+    <!--! Hakkımızda section end  -->
+
+    <!--! Yorumlar section start  -->
+    <section class="review" id="Yorumlar">
+      <h1 class="heading">Yorumlar</h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="images/quote.png" alt="quote" />
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa
+            praesentium quo laudantium aut in delectus, nemo quis molestias
+            minima voluptate quaerat eum ipsa sint dolores perferendis
+            doloribus! Facilis, eius veritatis.
+          </p>
+          <img src="images/avatar-1.png" alt="avatar" class="user" />
+          <h3>Berfin Altun</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/quote.png" alt="quote" />
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa
+            praesentium quo laudantium aut in delectus, nemo quis molestias
+            minima voluptate quaerat eum ipsa sint dolores perferendis
+            doloribus! Facilis, eius veritatis.
+          </p>
+          <img src="images/avatar-2.png" alt="avatar" class="user" />
+          <h3>Muhammet Fatih Alaeddinoğlu</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/quote.png" alt="quote" />
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa
+            praesentium quo laudantium aut in delectus, nemo quis molestias
+            minima voluptate quaerat eum ipsa sint dolores perferendis
+            doloribus! Facilis, eius veritatis.
+          </p>
+          <img src="images/avatar-3.png" alt="avatar" class="user" />
+          <h3>Pelin Savuran</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--! Yorumlar section end  -->
+
+    <!--! İletişim section start  -->
+    <section class="contact" id="İletişim">
+      <h1 class="heading">İletişim</h1>
+      <div class="row">
+        <iframe
+          class="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.1464503302273!2d36.93297!3d37.575168999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x152ddd74f4bbb8c9%3A0xb93baf1ebec3bf8d!2sTrabzon%20Blv.%2C%20Dulkadiro%C4%9Flu%2FKahramanmara%C5%9F!5e0!3m2!1str!2str!4v1669389936422!5m2!1str!2str"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <form>
+          <h3>SORUNUZMU VAR,SİZİ ARAYALIM</h3>
+          <div class="inputBox">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="İsim Soyisim" />
+          </div>
+
+          <div class="inputBox">
+            <i class="fas fa-envelope"></i>
+            <input type="email" placeholder="eposta" />
+          </div>
+
+          <div class="inputBox">
+            <i class="fas fa-phone"></i>
+            <input type="tel" placeholder="Numara" />
+          </div>
+          <input type="submit" class="btn" value="İletişime Geç" />
+        </form>
+      </div>
+    </section>
+    <!--! İletişim section end  -->
+
+    <!--! blog section start  -->
+    <section class="blogs" id="blogs">
+      <h1 class="heading">Tarifler İçin Tıkla</h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <a href="#"><img src="images/blog-1.jpg" alt="blog" /></a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="images/blog-2.jpg" alt="blog" />
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="images/blog-3.jpg" alt="blog" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--! blog section end  -->
+
+    <!--! Footer section start  -->
+    <section class="footer">
+      <div class="search">
+        <input type="text" class="search-input" placeholder="Search" />
+        <button class="btn btn-primary">search</button>
+      </div>
+      <div class="share">
+        <a href="#" class="fab fa-facebook"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+      </div>
+
+      <div class="links">
+        <a href="#">Home</a>
+        <a href="#" class="active">About</a>
+        <a href="#">Menu</a>
+        <a href="#">Products</a>
+        <a href="#">Review</a>
+        <a href="#">Contact</a>
+        <a href="#">Blogs</a>
+      </div>
+
+      <div class="credit">
+        created by <span>We'RE SOFTWARE </span> | Tüm Hakları Saklıdır
+      </div>
+    </section>
+    <!--! Footer section end  -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
